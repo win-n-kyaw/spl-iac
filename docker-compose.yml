@@ -4,7 +4,7 @@ services:
     restart: unless-stopped
     ports:
       - '14321:80'
-      - '14322:81'
+      - '11480:81'
       - '14443:443'
     volumes:
       - npm_data:/data
